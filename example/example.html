@@ -44,7 +44,7 @@
     </script>
     
     <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.js"></script>
-    <!-- <script src="//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script> -->
+    <!-- <script src="//cdn.bootcss.com/zepto/1.0/zepto.min.js"></script> -->
     <script src="../bower_components/doT/doT.js" type="text/javascript"></script>
     <script src="../jquery.dot.js"></script>
     <script>
@@ -66,8 +66,8 @@
 
 
     function loadNextPage(){
-        $.get('http://httpbin.org/get',{user:'vace',age:1000},function(result){
-            // console.log(result)
+        $.getJSON('http://httpbin.org/get',{user:'vace',age:1000},function(result){
+            console.log(result)
             $('.httptemplate').dot({
                 // target:'#target',
                 // method:'append'

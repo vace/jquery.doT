@@ -20,8 +20,6 @@
 
 })(this, function($, doT) {
   var _default = {
-      data: null,
-      varname: 'it',
       method:'append',
       target:null
     },
