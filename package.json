@@ -1,0 +1,19 @@
+{
+  "name": "jquery.dot",
+  "version": "1.0.0",
+  "description": "jquery template width doTjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vace/jquery.doT.git"
+  },
+  "author": "vace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vace/jquery.doT/issues"
+  },
+  "homepage": "https://github.com/vace/jquery.doT#readme"
+}
